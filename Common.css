@@ -1,1 +1,221 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('/load.php?debug=false&lang=en&mode=articles&articles=MediaWiki:Themes.css&only=styles');
+@import url("/load.php?mode=articles&only=styles&articles=u:justleafy:MediaWiki:WDSSpinners/code.css");
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:Button.css&only=styles";
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:FandomizedActivityFeed.css&only=styles";
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:FandomIcons.css&only=styles";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@460&display=swap');
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:ImprovedUserpages.css&only=styles";
+@import url("/load.php?mode=articles&articles=MediaWiki:Discord.css&only=styles");
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:BalancedSlider.css&only=styles";
 
+
+/* Experimental */
+@import url('https://fonts.cdnfonts.com/css/youtube-sans');
+
+.title-container {
+    font-family: 'YouTube Sans', Rubik;
+    font-weight: 500
+}
+
+.community-page-subheader-welcome-message {
+    font-family: "YouTube Sans", Rubik !important;
+}
+
+.page__right-rail {
+    font-family: 'YouTube Sans Dark';
+}
+
+.userprofile.mw-warning-with-logexcerpt {
+    padding: 12px;
+    background: #B91F1F;
+    color: white;
+    font-weight: 1000;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.community-page-header:before {
+    background-image: linear-gradient(180deg,transparent 25%,rgba(14,25,26,0),rgb(0 0 0 / 60%));
+}
+
+.user-identity-box__info {
+    font-family: 'YouTube Sans', Rubik;
+}
+
+.rail-module h2,.rail-module__header,.page-header__actions {
+    font-family: 'YouTube Sans',Rubik;
+    font-weight: 1000;
+    font-size: 1.19em;
+}
+
+.eraicon.wds-dropdown {
+    margin-left: 4px;
+    margin-right: 2px;
+}
+
+.page-header__title {
+    font-family: "Roboto","Noto",Rubik;
+}
+
+.fandom-community-header__local-navigation {
+    font-family: "Roboto","Noto",Rubik;
+    font-weight: 900;
+}
+.page-content h2, .page-content h3, .page-content h4, .page-content h5 {
+    font-family: 'YouTube Sans', Rubik;
+}
+
+.fandom-community-header__community-name-wrapper,.user-profile-navigation {
+    font-family: 'YouTube Sans', Rubik;
+    font-weight: 500
+}
+
+section#p-tb,section#wikia-recent-activity,section#discussions-activity-module {
+    padding-left: 10px;
+    border-left: 4px solid red;
+}
+
+.page-counter {
+    font-family: 'YouTube Sans', Rubik;
+    font-weight: 500;
+    padding-bottom: 1px;
+}
+
+.mw-message-box-warning,.warningbox {
+    padding: 12px;
+    background: #282828;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+a[href$="Tylerota2"],
+a[href$="Enayy"],
+a[href$="ChaosX457"]{
+    font-weight: bold !important;
+    color: #00E000 !important;
+}
+
+.Wall .edited-by .subtle[href$="Tylerota2"]:after,
+.Wall .edited-by .subtle[href$="Enayy"]:after,
+.Wall .edited-by .subtle[href$="ChaosX457"]:after{
+
+    color: #00E000 !important;
+    content: "bureaucrat" !important;
+    font-size: 15px;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+a[href$="Tylerota2"],
+a[href$="Enayy"],
+a[href$="ChaosX457"]{
+    font-weight: bold !important;
+    color: #00E000 !important;
+}
+
+a[href$="TheVlogger110"]{
+	color: #B80000 !important;
+    font-weight: bold !important;
+}
+
+.Wall .edited-by .subtle[href$="TheVlogger110"]:after {
+	color: #B80000 !important;
+    content: "admin" !important;
+    font-size: 15px;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+a[href$="Ditb01"],
+a[href$="Turner_Blackey"],
+a[href$="Turner%20Blackey"]{
+	color: #323299 !important;
+    font-weight: bold !important;
+}
+
+.Wall .edited-by .subtle[href$="Ditb01"]:after,
+.Wall .edited-by .subtle[href$="Turner_Blackey"]:after,
+.Wall .edited-by .subtle[href$="Turner%20Blackey"]:after{
+    color: #323299 !important;
+    content: "content moderator" !important;
+    font-size: 15px;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+a[href$=""]{
+    font-weight: bold !important;
+    color: #c27c0e !important;
+}
+
+.Wall .edited-by .subtle[href$=""]:after{
+    color: #c27c0e !important;
+    content: "rollbacker" !important;
+    font-size: 15px;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+#mainwiki {
+    position: absolute;
+    top: -65px;
+}
+
+.masthead-avatar img {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.masthead-avatar:hover img {
+  border-radius: 100%;
+  box-shadow:0 0 20px white;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#WikiaMainContent,
+#WikiaRail,
+.Wall textarea,
+.category-gallery-item .snippet .text,
+a.wikia-button,
+.wikia-single-button a,
+.wikia-menu-button,
+input,
+.button,
+button,
+select {
+    font-family: 'Arial', sans-serif !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div#icons {
+    right: auto !important;
+}
+
+.theme-fandomdesktop-light aside.portable-infobox.pi-background.pi-border-color.pi-theme-wikia.pi-layout-default {
+    color: white
+}
+
+.theme-fandomdesktop-light .pi-secondary-background {
+    color: white;
+}
+
+.theme-fandomdesktop-dark aside.portable-infobox.pi-background.pi-border-color.pi-theme-wikia.pi-layout-default {
+    color: white;
+}
+
+.theme-fandomdesktop-dark .pi-secondary-background {
+    color: #ffffff;
+}
