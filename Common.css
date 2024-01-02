@@ -94,15 +94,14 @@ section#p-tb,section#wikia-recent-activity,section#discussions-activity-module {
 /* ------------------------------------------------------------------------------- */
 
 a[href$="Tylerota2"],
-a[href$="Enayy"],
 a[href$="ChaosX457"]{
     font-weight: bold !important;
     color: #00E000 !important;
 }
 
 .Wall .edited-by .subtle[href$="Tylerota2"]:after,
-.Wall .edited-by .subtle[href$="Enayy"]:after,
-.Wall .edited-by .subtle[href$="ChaosX457"]:after{
+.Wall .edited-by .subtle[href$="ChaosX457"]:after,
+.Wall .edited-by .subtle[href$="TheVlogger110"]:after {
 
     color: #00E000 !important;
     content: "bureaucrat" !important;
@@ -112,18 +111,18 @@ a[href$="ChaosX457"]{
 }
 
 a[href$="Tylerota2"],
-a[href$="Enayy"],
-a[href$="ChaosX457"]{
+a[href$="ChaosX457"],
+a[href$="TheVlogger110"]{
     font-weight: bold !important;
     color: #00E000 !important;
 }
 
-a[href$="TheVlogger110"]{
+a[href$=""]{
 	color: #B80000 !important;
     font-weight: bold !important;
 }
 
-.Wall .edited-by .subtle[href$="TheVlogger110"]:after {
+.Wall .edited-by .subtle[href$=""]:after {
 	color: #B80000 !important;
     content: "admin" !important;
     font-size: 15px;
