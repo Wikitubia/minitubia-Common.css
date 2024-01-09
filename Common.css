@@ -130,16 +130,12 @@ a[href$=""]{
     font-weight: normal;
 }
 
-a[href$="Ditb01"],
-a[href$="Turner_Blackey"],
-a[href$="Turner%20Blackey"]{
+a[href$="Ditb01"]{
 	color: #323299 !important;
     font-weight: bold !important;
 }
 
-.Wall .edited-by .subtle[href$="Ditb01"]:after,
-.Wall .edited-by .subtle[href$="Turner_Blackey"]:after,
-.Wall .edited-by .subtle[href$="Turner%20Blackey"]:after{
+.Wall .edited-by .subtle[href$="Ditb01"]:after {
     color: #323299 !important;
     content: "content moderator" !important;
     font-size: 15px;
