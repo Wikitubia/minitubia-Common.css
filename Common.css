@@ -50,8 +50,7 @@ span.nkch-rdp__header-link-container::after {
 
 /* Dark Mode Username Colors */
 .theme-fandomdesktop-dark a[href$="Tylerota2"],
-.theme-fandomdesktop-dark a[href$="ChaosX457"],
-.theme-fandomdesktop-dark a[href$="TheVlogger110"] {
+.theme-fandomdesktop-dark a[href$="ChaosX457"], {
     font-weight: bold !important;
     color: #00ff00 !important;
 }
