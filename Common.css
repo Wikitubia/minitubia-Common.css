@@ -50,18 +50,17 @@ span.nkch-rdp__header-link-container::after {
 
 /* Dark Mode Username Colors */
 .theme-fandomdesktop-dark a[href$="Tylerota2"],
-.theme-fandomdesktop-dark a[href$="ChaosX457"], {
+.theme-fandomdesktop-dark a[href$="Hellohowareyouthisisanalt"] {
     font-weight: bold !important;
     color: #00ff00 !important;
 }
 
-.theme-fandomdesktop-dark a[href$="Hellohowareyouthisisanalt"] {
+.theme-fandomdesktop-dark a[href$="EdwardBloxy"] {
     font-weight: bold !important;
     color: #ff6965 !important;
 }
 
 .theme-fandomdesktop-dark a[href$="Ditb01"],
-.theme-fandomdesktop-dark a[href$="EdwardBloxy"],
 .theme-fandomdesktop-dark a[href$="TheOriginalImpostor"],
 .theme-fandomdesktop-dark a[href$="Blitzerous"] {
     color: #8b76ff !important;
@@ -69,20 +68,18 @@ span.nkch-rdp__header-link-container::after {
 }
 
 /* Light Mode Username Colors */
-.theme-fandomdesktop-dark a[href$="Tylerota2"],
-.theme-fandomdesktop-dark a[href$="ChaosX457"],
-.theme-fandomdesktop-dark a[href$="TheVlogger110"] {
+.theme-fandomdesktop-dark a[href$="Tylerota2"]
+.theme-fandomdesktop-dark a[href$="Hellohowareyouthisisanalt"] {
     font-weight: bold !important;
     color: #00E000 !important;
 }
 
-.theme-fandomdesktop-light a[href$="Hellohowareyouthisisanalt"] {
+.theme-fandomdesktop-light a[href$="EdwardBloxy"] {
     font-weight: bold !important;
     color: #B80000 !important;
 }
 
 .theme-fandomdesktop-light a[href$="Ditb01"],
-.theme-fandomdesktop-light a[href$="EdwardBloxy"],
 .theme-fandomdesktop-light a[href$="TheOriginalImpostor"],
 .theme-fandomdesktop-light a[href$="Blitzerous"] {
     color: #323299 !important;
