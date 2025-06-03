@@ -60,7 +60,6 @@ span.nkch-rdp__header-link-container::after {
     color: #ff6965 !important;
 }
 
-.theme-fandomdesktop-dark a[href$="Ditb01"],
 .theme-fandomdesktop-dark a[href$="TheOriginalImpostor"],
 .theme-fandomdesktop-dark a[href$="Blitzerous"] {
     color: #8b76ff !important;
@@ -79,7 +78,6 @@ span.nkch-rdp__header-link-container::after {
     color: #B80000 !important;
 }
 
-.theme-fandomdesktop-light a[href$="Ditb01"],
 .theme-fandomdesktop-light a[href$="TheOriginalImpostor"],
 .theme-fandomdesktop-light a[href$="Blitzerous"] {
     color: #323299 !important;
