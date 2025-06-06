@@ -61,7 +61,8 @@ span.nkch-rdp__header-link-container::after {
 }
 
 .theme-fandomdesktop-dark a[href$="TheOriginalImpostor"],
-.theme-fandomdesktop-dark a[href$="Blitzerous"] {
+.theme-fandomdesktop-dark a[href$="Blitzerous"],
+.theme-fandomdesktop-dark a[href$="Epok_in_town"] {
     color: #8b76ff !important;
     font-weight: bold !important;
 }
@@ -79,7 +80,8 @@ span.nkch-rdp__header-link-container::after {
 }
 
 .theme-fandomdesktop-light a[href$="TheOriginalImpostor"],
-.theme-fandomdesktop-light a[href$="Blitzerous"] {
+.theme-fandomdesktop-light a[href$="Blitzerous"],
+.theme-fandomdesktop-light a[href$="Epok_in_town"] {
     color: #323299 !important;
     font-weight: bold !important;
 }
